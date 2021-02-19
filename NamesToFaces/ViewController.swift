@@ -77,6 +77,7 @@ class ViewController: UICollectionViewController,UIImagePickerControllerDelegate
             self?.collectionView.reloadData()
         })
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        
         present(ac, animated: true)
     }
 }
